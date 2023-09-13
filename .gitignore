@@ -1,0 +1,8 @@
+.idea/
+image/cache
+/config.php
+admin/config.php
+system/storage
+node_modules/
+package-lock.json
+.vscode/

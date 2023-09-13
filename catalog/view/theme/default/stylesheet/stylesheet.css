@@ -352,16 +352,14 @@ div.required .control-label:before {
 footer {
 	margin-top: 30px;
 	padding-top: 30px;
-	background-color: #303030;
-	border-top: 1px solid #ddd;
-	color: #e2e2e2;
+	background-color: #252525;
 }
 footer hr {
 	border-top: none;
 	border-bottom: 1px solid #666;
 }
 footer a {
-	color: #ccc;
+	color: #ACFD31;
 }
 footer a:hover {
 	color: #fff;
@@ -370,7 +368,7 @@ footer h5 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	font-weight: bold;
-	color: #fff;
+	color: #ACFD31;
 }
 /* alert */
 .alert {
@@ -569,10 +567,32 @@ footer h5 {
 	line-height: 51px;
 	text-align: center;
 }
-.button-category{
+.col-sm-12 .row-wrapper{
+	width: 100%;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+}
+.col-sm-12 .button-category{
+	background-color: #ACFD31;
+	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 60px;
+	width: 330px;
+	border-radius: 15px;
+	height: 60px;
+	font-size: 20px;
+	padding-top: 17px;
 }
+
+.col-sm-12 .button-category a {
+	color: #000000;
+}
+
+.col-sm-12 .button-category:hover{
+	background-color: #8ACC27;
+}
+
 .product-thumb {
 	border: 1px solid #ACFD31;
 	margin-bottom: 20px;
@@ -876,3 +896,9 @@ header .container{
 	width: 100%;
 }
 
+/* New Footer */
+
+footer .container{
+	width: 100%;
+	max-width: 1440px;
+}

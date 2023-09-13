@@ -1,9 +1,9 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://192.168.0.103/');
+define('HTTP_SERVER', 'http://192.168.0.102/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://192.168.0.103/');
+define('HTTPS_SERVER', 'http://192.168.0.102/');
 
 // DIR
 define('DIR_APPLICATION', 'C:/site/OSPanel/domains/promocode/catalog/');
@@ -22,7 +22,7 @@ define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 
 // DB
 define('DB_DRIVER', 'mpdo');
-define('DB_HOSTNAME', '192.168.0.103');
+define('DB_HOSTNAME', '192.168.0.102');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_DATABASE', 'test');

@@ -1,11 +1,11 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://192.168.0.103/admin/');
-define('HTTP_CATALOG', 'http://192.168.0.103/');
+define('HTTP_SERVER', 'http://192.168.0.102/admin/');
+define('HTTP_CATALOG', 'http://192.168.0.102/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://192.168.0.103/admin/');
-define('HTTPS_CATALOG', 'http://192.168.0.103/');
+define('HTTPS_SERVER', 'http://192.168.0.102/admin/');
+define('HTTPS_CATALOG', 'http://192.168.0.102/');
 
 // DIR
 define('DIR_APPLICATION', 'C:/site/OSPanel/domains/promocode/admin/');
