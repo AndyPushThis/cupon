@@ -5,7 +5,7 @@ image/catalog
 .idea/
 .vscode/
 system/storage/upload/
-system/storage/cache/
+system/storage/cache/git
 system/storage/logs/
 system/storage/download/
 system/storage/watch/

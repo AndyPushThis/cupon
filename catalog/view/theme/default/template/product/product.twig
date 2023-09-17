@@ -20,24 +20,35 @@
         {% set class = 'col-sm-8' %}
         {% endif %}
         <div class="{{ class }}"> {% if thumb or images %}
-          <ul class="thumbnails">
+          <div class="products-name">
+            <div class="product-name">
+              <h1>{{ heading_title }}</h1>
+              <img src="/catalog/view/theme/default/image/liners.png" title="{{ heading_title }}" alt="{{ heading_title }}" />
+              <p>{{ news }}</p>
+            </div>
+            <div class="product-image">
+              <img src="{{ thumb }}" title="{{ heading_title }}" alt="{{ heading_title }}" />
+            </div>
+          </div>
+          {# <ul class="thumbnails">
             {% if thumb %}
             <li><a class="thumbnail" href="{{ popup }}" title="{{ heading_title }}"><img src="{{ thumb }}" title="{{ heading_title }}" alt="{{ heading_title }}" /></a></li>
             {% endif %}
+
             {% if images %}
             {% for image in images %}
             <li class="image-additional"><a class="thumbnail" href="{{ image.popup }}" title="{{ heading_title }}"> <img src="{{ image.thumb }}" title="{{ heading_title }}" alt="{{ heading_title }}" /></a></li>
             {% endfor %}
             {% endif %}
-          </ul>
+          </ul> #}
           {% endif %}
           <ul class="nav nav-tabs">
-            <li class="active"><a href="#tab-description" data-toggle="tab">{{ tab_description }}</a></li>
-            {% if attribute_groups %}
+            <li class="active"><a href="#tab-description" data-toggle="tab">Промокоди</a></li>
+            {# {% if attribute_groups %}
             <li><a href="#tab-specification" data-toggle="tab">{{ tab_attribute }}</a></li>
-            {% endif %}
+            {% endif %} #}
             {% if review_status %}
-            <li><a href="#tab-review" data-toggle="tab">{{ tab_review }}</a></li>
+            <li><a href="#tab-review" data-toggle="tab">Відгуки</a></li>
             {% endif %}
           </ul>
           <div class="tab-content">
@@ -116,12 +127,11 @@
         {% set class = 'col-sm-4' %}
         {% endif %}
         <div class="{{ class }}">
-          <div class="btn-group">
+          {# <div class="btn-group">
             <button type="button" data-toggle="tooltip" class="btn btn-default" title="{{ button_wishlist }}" onclick="wishlist.add('{{ product_id }}');"><i class="fa fa-heart"></i></button>
             <button type="button" data-toggle="tooltip" class="btn btn-default" title="{{ button_compare }}" onclick="compare.add('{{ product_id }}');"><i class="fa fa-exchange"></i></button>
-          </div>
-          <h1>{{ heading_title }}</h1>
-          <ul class="list-unstyled">
+          </div> #}
+          {# <ul class="list-unstyled">
             {% if manufacturer %}
             <li>{{ text_manufacturer }} <a href="{{ manufacturers }}">{{ manufacturer }}</a></li>
             {% endif %}
@@ -294,7 +304,8 @@
             <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-515eeaf54693130e"></script> 
             <!-- AddThis Button END --> 
           </div>
-          {% endif %} </div>
+          {% endif %} </div> #}
+        </div>
       </div>
       {% if products %}
       <h3>{{ text_related }}</h3>

@@ -17,8 +17,10 @@ body {
 	width: 100%;
 	background-color: #171717;
 }
-h1, h2, h3, h4, h5, h6 {
-	color: #444;
+@media (min-width: 1200px){
+	body .container {
+		width: 1440px;
+	}
 }
 /* default font size */
 .fa {
@@ -74,6 +76,7 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 
 .nav-tabs {
 	margin-bottom: 15px;
+	border-bottom: none;
 }
 div.required .control-label:before {
 	content: '* ';
@@ -376,18 +379,26 @@ footer h5 {
 }
 /* breadcrumb */
 .breadcrumb {
-	margin: 0 0 20px 0;
-	padding: 8px 0;
-	border: 1px solid #ddd;
+	background-color: #171717;
+	margin: 20px 0 20px 0;
+	padding: 0;	
 }
 .breadcrumb i {
 	font-size: 15px;
+	color: #ACFD31;
 }
 .breadcrumb > li {
-	text-shadow: 0 1px 0 #FFF;
-	padding: 0 20px;
+	/* text-shadow: 0 1px 0 #FFF; */
+	padding: 0 10px;
 	position: relative;
 	white-space: nowrap;
+}
+.breadcrumb > li > a {
+	color: #ACFD31;
+}
+
+.breadcrumb > li > a:hover {
+	color: #8ACC27;
 }
 .breadcrumb > li + li:before {
 	content: '';
@@ -397,10 +408,10 @@ footer h5 {
 	content: '';
 	display: block;
 	position: absolute;
-	top: -3px;
+	top: 5px;
 	right: -5px;
-	width: 26px;
-	height: 26px;
+	width: 10px;
+	height: 10px;
 	border-right: 1px solid #DDD;
 	border-bottom: 1px solid #DDD;
 	-webkit-transform: rotate(-45deg);
@@ -764,6 +775,8 @@ h2.price {
 	}
 }
 .thumbnails {
+	width: 520px;
+	height: 372px;
 	overflow: auto;
 	clear: both;
 	list-style: none;
@@ -777,6 +790,13 @@ h2.price {
 	margin-left: -20px;
 }
 .thumbnails > img {
+	width: 100%;
+}
+/* .thumbnails{
+	width: 520px;
+	height: 372px;
+} */
+.thumbnail a>img, .thumbnail>img {
 	width: 100%;
 }
 .image-additional a {
@@ -892,13 +912,54 @@ header .container{
 	width: 100%;
 	max-width: 1440px;
 }
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive{
 	width: 100%;
 }
 
 /* New Footer */
-
+body .col-sm-8{
+	width: 100%;
+}
 footer .container{
 	width: 100%;
 	max-width: 1440px;
 }
+
+/* New Body  */
+/* Product */
+.products-name {
+	display: flex; 
+	justify-content: space-between;  
+	gap: 80px;
+  }
+  
+  .product-name { 
+	flex: 1; 
+	padding: 10px; 
+	text-align: center;
+  }
+  .product-name p {
+	margin-top: 20px;
+	font-size: 18px;
+	color: #DDD;
+  }
+  .product-name h1{
+	color: #ACFD31;
+  }
+  .product-image {
+	flex: 1; 
+	padding: 10px; 
+  }
+  .product-image img {
+	width: 80%;
+	padding-left: 50px;
+	background: linear-gradient(246deg, #35C245 -63.2%, #171717 45.16%);
+	border-radius: 15px;
+  }
+  
+  
+  
+  
+  
+  
+  
