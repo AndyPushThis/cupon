@@ -4002,3 +4002,6 @@
 2023-09-06 5:30:35 - PHP Notice:  Trying to access array offset on value of type null in C:\site\OSPanel\domains\promocode\system\storage\vendor\scss.inc.php on line 1753
 2023-09-06 5:30:35 - PHP Notice:  Trying to access array offset on value of type null in C:\site\OSPanel\domains\promocode\system\storage\vendor\scss.inc.php on line 1753
 2023-09-17 18:43:36 - PHP Warning:  str_replace() expects at least 3 parameters, 2 given in C:\site\OSPanel\domains\promocode\catalog\controller\product\product.php on line 244
+2023-09-21 21:46:42 - PHP Notice:  Undefined index:  in C:\site\OSPanel\domains\promocode\catalog\controller\startup\startup.php on line 109
+2023-09-21 21:46:42 - PHP Notice:  Trying to access array offset on value of type null in C:\site\OSPanel\domains\promocode\catalog\controller\startup\startup.php on line 109
+2023-09-21 21:46:42 - PHP Warning:  fopen(C:/site/OSPanel/domains/promocode/system/storage/logs/): failed to open stream: No such file or directory in C:\site\OSPanel\domains\promocode\system\library\log.php on line 22
