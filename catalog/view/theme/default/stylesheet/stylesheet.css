@@ -349,7 +349,6 @@ div.required .control-label:before {
 }
 /* content */
 #content {
-	margin-top: -72px;
 	min-height: 600px;
 }
 /* footer */
@@ -974,7 +973,10 @@ body .container .row .filter {
 .pagination>.active>span{
 	background: #8ACC27;
 }
-  
+#product-category #content{
+	margin-top: -72px;
+}
+
   
   
   
