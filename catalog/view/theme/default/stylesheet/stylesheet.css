@@ -349,6 +349,7 @@ div.required .control-label:before {
 }
 /* content */
 #content {
+	margin-top: -72px;
 	min-height: 600px;
 }
 /* footer */
@@ -618,7 +619,7 @@ footer h5 {
 }
 .product-thumb h4 a{
 	color: #DDD;
-	font-size: 28px;
+	font-size: 18px;
 	text-align: center;
 }
 .product-thumb .image {
@@ -651,13 +652,14 @@ footer h5 {
 	border-radius: 15px;
 }
 
+
 .product-thumb .button-cupon:hover{
 	background-color: #8ACC27;
 }
 
 .product-thumb .button-cupon a{
 	color: #000000;
-	font-size: 18px;
+	font-size: 16px;
 	padding-top: 12px;
 }
 
@@ -672,7 +674,6 @@ footer h5 {
 }
 .product-thumb .caption {
 	padding: 0 20px;
-	min-height: 180px;
 }
 .product-list .product-thumb .caption {
 	margin-left: 230px;
@@ -957,6 +958,22 @@ footer .container{
 	border-radius: 15px;
   }
   
+/* New Body  */
+/* Category */
+.col-sm-9 .heading {
+	font-size: 48px;
+	color: #ddd;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+body .container .row .filter {
+	margin-top: 80px;
+}
+
+.pagination>.active>span{
+	background: #8ACC27;
+}
   
   
   
