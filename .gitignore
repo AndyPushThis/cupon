@@ -15,3 +15,4 @@ package-lock.json
 /jsError.php
 xml/
 config.php
+system/storage/cache
