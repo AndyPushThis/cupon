@@ -130,7 +130,7 @@ class __TwigTemplate_a22a33046a6f1c77afc01f4883f37bb24c52a505be91a0ec24444c0c431
 <body>
 <header>
   <div class=\"container\">
-    <div class=\"row\">
+    <div class=\"row\" id=\"header-mobile\">
       <div class=\"col-sm-4\">
         <div id=\"logo\"><a href=\"";
         // line 45
@@ -282,7 +282,7 @@ class __TwigTemplate_a22a33046a6f1c77afc01f4883f37bb24c52a505be91a0ec24444c0c431
 /* <body>*/
 /* <header>*/
 /*   <div class="container">*/
-/*     <div class="row">*/
+/*     <div class="row" id="header-mobile">*/
 /*       <div class="col-sm-4">*/
 /*         <div id="logo"><a href="{{ home }}"><img src="/catalog/view/theme/default/image/logo.png" title="{{ name }}" alt="{{ name }}" class="img-responsive" /></a>*/
 /*           {# <h1><a href="{{ home }}">{{ name }}</a></h1> #}*/

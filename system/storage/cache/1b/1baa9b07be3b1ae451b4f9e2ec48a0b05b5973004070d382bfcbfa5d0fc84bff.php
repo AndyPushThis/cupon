@@ -17,7 +17,7 @@ class __TwigTemplate_fca72de06704c82e47bbcef44eb5731ddb985559b49d82cbc2fa197f38d
     {
         // line 1
         echo "<div class=\"top-cupon\">Популярні промокоди</div>
-<div class=\"row\">";
+<div class=\"row\" id=\"pop-product\">";
         // line 3
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["products"]) ? $context["products"] : null));
@@ -74,7 +74,7 @@ class __TwigTemplate_fca72de06704c82e47bbcef44eb5731ddb985559b49d82cbc2fa197f38d
     }
 }
 /* <div class="top-cupon">Популярні промокоди</div>*/
-/* <div class="row">*/
+/* <div class="row" id="pop-product">*/
 /*  {% for product in products %}*/
 /*   <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">*/
 /*     <div class="product-thumb transition">*/
