@@ -16,3 +16,4 @@ package-lock.json
 xml/
 config.php
 system/storage/cache
+LICENSE.md
